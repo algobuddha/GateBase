@@ -14,8 +14,12 @@ app.get('/questions', (req, res) => {
 });
 
 app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+app.get('/questions-page', (req, res) => {
   res.sendFile(path.join(__dirname, 'question.html'));
 });
+
 
 const PORT = process.env.PORT;
 app.listen(PORT, () => {
