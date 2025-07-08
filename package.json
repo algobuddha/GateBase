@@ -1,0 +1,19 @@
+{
+  "name": "gatebase",
+  "version": "1.0.0",
+  "description": "GateBase — Learn Smarter for GATE CSE by showing random past year questions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Subhajit Basak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "puppeteer": "^24.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
